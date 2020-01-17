@@ -1,0 +1,270 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Level1",
+    "sceneWidth": 640,
+    "sceneHeight": 960,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "\r\n\r\nthis.myCreate();",
+    "state_init_before": "this.myInit();",
+    "state_preload_before": "this.myPreload();"
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "pageAlignVertically": true,
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "8a0fc0bc-e3be-4656-9585-f855ac8ba0bb",
+    "info": {
+      "editorName": "Level",
+      "setAll": [],
+      "children": [
+        {
+          "type": "image",
+          "id": "8e13f14b-49eb-4fb5-9e22-8eec7afb97f5",
+          "asset": "0",
+          "info": {"editorName": "bg"}
+        },
+        {
+          "type": "group",
+          "id": "68e87175-220f-48bb-8710-0917efb53aa8",
+          "info": {
+            "editorName": "breakedPlatforms",
+            "editorField": true,
+            "setAll": [],
+            "children": []
+          }
+        },
+        {
+          "type": "group",
+          "id": "052e9ced-1b10-4f4e-90eb-9687230c416e",
+          "info": {
+            "editorName": "platforms",
+            "editorField": true,
+            "setAll": [],
+            "children": []
+          }
+        },
+        {
+          "type": "group",
+          "id": "929044ac-920f-43dd-af9c-ad8b2d2903a7",
+          "info": {
+            "editorName": "luckyBalls",
+            "editorField": true,
+            "setAll": [],
+            "children": []
+          }
+        },
+        {
+          "type": "group",
+          "id": "8c36d33e-da03-4028-b295-32d3848d0a37",
+          "info": {
+            "editorName": "groupCheer",
+            "editorField": true,
+            "setAll": [],
+            "children": [
+              {
+                "type": "image",
+                "id": "871124d9-1dfa-47db-800a-f4dc41acd678",
+                "asset": "1",
+                "info": {
+                  "editorName": "prizeBanner",
+                  "editorField": true,
+                  "x": -5,
+                  "y": -128
+                }
+              },
+              {
+                "type": "bitmapText",
+                "id": "834132a2-ae80-4504-b02d-ec35d241328c",
+                "asset": "2",
+                "info": {
+                  "editorName": "cheerUpText",
+                  "editorField": true,
+                  "x": 172,
+                  "y": -89,
+                  "text": "Excelent",
+                  "fontSize": 64
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "image",
+          "id": "57766c55-dda3-47eb-b3db-6862641e4584",
+          "asset": "3",
+          "info": {
+            "editorName": "visor",
+            "editorField": true,
+            "x": 92
+          }
+        },
+        {
+          "type": "bitmapText",
+          "id": "c25aedb3-ac9b-4fad-8409-6a97218a2d62",
+          "asset": "2",
+          "info": {
+            "editorName": "time",
+            "editorField": true,
+            "x": 232,
+            "y": 48,
+            "text": "0 s",
+            "fontSize": 64
+          }
+        },
+        {
+          "type": "bitmapText",
+          "id": "eb01c52f-6737-4c04-8bed-10f3b24a2eec",
+          "asset": "2",
+          "info": {
+            "editorName": "Time Survived",
+            "x": 217,
+            "y": 116,
+            "text": "Bounces"
+          }
+        },
+        {
+          "type": "group",
+          "id": "4164e0b2-4983-46ef-a918-af58c7fcb32e",
+          "info": {
+            "editorName": "deathBars",
+            "editorField": true,
+            "setAll": [],
+            "children": []
+          }
+        },
+        {
+          "type": "image",
+          "id": "1fc37025-5189-4128-99b4-2da2ba009cce",
+          "asset": "4",
+          "info": {
+            "editorName": "cesped",
+            "editorField": true,
+            "x": -22,
+            "y": 819,
+            "scale.y": 0.5
+          }
+        },
+        {
+          "type": "image",
+          "id": "4929cc82-021a-41dd-b4e0-2ff64be44980",
+          "asset": "5",
+          "info": {
+            "editorName": "floor",
+            "editorField": true,
+            "x": -33,
+            "y": 845
+          }
+        },
+        {
+          "type": "image",
+          "id": "e0baf6ab-1289-4c70-8128-5e288b9266b1",
+          "asset": "6",
+          "info": {
+            "editorName": "menuBtn",
+            "editorField": true,
+            "x": -1,
+            "y": 12
+          }
+        },
+        {
+          "type": "bitmapText",
+          "id": "3e36da95-8132-4691-9722-a52e9c9eb22d",
+          "asset": "2",
+          "info": {
+            "editorName": "currentLevelText",
+            "editorField": true,
+            "x": 146,
+            "y": 893,
+            "text": " - Novice -",
+            "fontSize": 64,
+            "maxWidth": 800,
+            "align": "center"
+          }
+        },
+        {
+          "type": "image",
+          "id": "8c261626-c96f-4f6e-b4d1-40bf2e05a887",
+          "asset": "7",
+          "info": {
+            "editorName": "megaBall",
+            "editorField": true,
+            "x": 306,
+            "y": -285,
+            "data": "this.data={\npowerballs:1\n}"
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "bg"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "prizeBanner"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "Fonts",
+      "asset": "PixelFont"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "visor"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "cesped"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "floor"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "menuBtn"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "megaBall"
+    }
+  },
+  "prefab-table": {}
+}

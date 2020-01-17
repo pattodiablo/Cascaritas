@@ -1,0 +1,181 @@
+{
+  "graphics": [
+    {
+      "type": "image",
+      "key": "megaBall",
+      "url": "assets/images/megaBall.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "LuckyBall",
+      "url": "assets/images/LuckyBall.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "visor",
+      "url": "assets/images/visor.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bg",
+      "url": "assets/images/bg.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "explodeBar",
+      "url": "assets/images/explodeBar.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ring",
+      "url": "assets/images/ring.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "luckyRing",
+      "url": "assets/images/luckyRing.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "playBtn",
+      "url": "assets/images/playBtn.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "title",
+      "url": "assets/images/title.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "menuBtn",
+      "url": "assets/images/menuBtn.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pauseIcons",
+      "url": "assets/images/pauseIcons.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "OffBtn",
+      "url": "assets/images/OffBtn.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "OnBtn",
+      "url": "assets/images/OnBtn.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "VT323-Regular",
+      "url": "assets/fonts/VT323-Regular.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "how1",
+      "url": "assets/images/how1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "how2",
+      "url": "assets/images/how2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "howToPlayTitle",
+      "url": "assets/images/howToPlayTitle.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HowToPlayBtn",
+      "url": "assets/images/HowToPlayBtn.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "QuitBtn",
+      "url": "assets/images/QuitBtn.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "IniText",
+      "url": "assets/images/IniText.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "GameOverScreen",
+      "url": "assets/images/GameOverScreen.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "againBtn",
+      "url": "assets/images/againBtn.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "cesped",
+      "url": "assets/images/cesped.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "kick",
+      "url": "assets/images/kick.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "floor",
+      "url": "assets/images/floor.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "shoe",
+      "url": "assets/images/shoe.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "prizeBanner",
+      "url": "assets/images/prizeBanner.png",
+      "overwrite": false
+    }
+  ],
+  "Fonts": [{
+    "type": "bitmapFont",
+    "key": "PixelFont",
+    "textureURL": "assets/fonts/PixelFont_0.png",
+    "atlasURL": "assets/fonts/PixelFont.xml",
+    "xSpacing": 0,
+    "ySpacing": 0
+  }],
+  "meta": {
+    "generated": "1579195403494",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}
