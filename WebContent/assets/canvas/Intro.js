@@ -88,15 +88,8 @@ Intro.prototype.myCreate = function () {
 		
 		 IntroMusic.play('IntroMusic');
 	
-		 
-	       
-	    
-
-	
-	
 	//player.sounds.fxCoin.play("coin");
 	
-
 	 this.startButton = this.game.add.button(this.game.width/2, 955.0, 'playBtn', startGame, this, 2, 1, 0);
 	 this.startButton.anchor.set(0.5);
 	 pigArrives = this.game.add.tween( this.startButton);
@@ -126,7 +119,7 @@ Intro.prototype.myCreate = function () {
 	    
 	 function startGame(){
 	 		 IntroMusic.stop('IntroMusic');
-		 this.game.state.start('Level1');
+		 this.game.state.start('Instructions');
 		 
 	 }
 	

@@ -15,7 +15,7 @@ window.onload = function() {
 	play.prototype = {
 			
 			preload:function(){
-				console.log("paro zona");
+			
 				firstRunLandscape = game.scale.isGameLandscape;
 				if(game.device.desktop){
 					game.scale.forceOrientation(false, false);
@@ -48,7 +48,7 @@ window.onload = function() {
 				
 				gameRatio = window.innerWidth/window.innerHeight;		
 				game.width = Math.ceil(640*gameRatio);
-				game.height = 960;
+				game.height = 560;
 				game.renderer.resize(game.width,game.height);
 				game.state.start("Play");		
 			}
