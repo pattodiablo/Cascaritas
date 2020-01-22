@@ -132,10 +132,11 @@
           "info": {
             "editorName": "time",
             "editorField": true,
-            "x": 232,
+            "x": 246,
             "y": 48,
-            "text": "0 s",
-            "fontSize": 64
+            "text": "0",
+            "fontSize": 64,
+            "maxWidth": 400
           }
         },
         {
@@ -144,7 +145,7 @@
           "asset": "2",
           "info": {
             "editorName": "Time Survived",
-            "x": 217,
+            "x": 221,
             "y": 116,
             "text": "Bounces"
           }
@@ -200,9 +201,9 @@
           "info": {
             "editorName": "currentLevelText",
             "editorField": true,
-            "x": 146,
+            "x": 155,
             "y": 893,
-            "text": " - Novice -",
+            "text": "- Novice -",
             "fontSize": 64,
             "maxWidth": 800,
             "align": "center"

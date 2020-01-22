@@ -161,6 +161,12 @@
       "key": "prizeBanner",
       "url": "assets/images/prizeBanner.png",
       "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "how11",
+      "url": "assets/images/how1.jpg",
+      "overwrite": false
     }
   ],
   "Fonts": [{
@@ -172,7 +178,7 @@
     "ySpacing": 0
   }],
   "meta": {
-    "generated": "1579195403494",
+    "generated": "1579542352405",
     "app": "Phaser Editor",
     "url": "http://phasereditor.boniatillo.com",
     "version": "1.0",

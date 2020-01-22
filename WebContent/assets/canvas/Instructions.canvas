@@ -43,49 +43,23 @@
     "info": {
       "editorName": "Level",
       "setAll": [],
-      "children": [
-        {
-          "type": "image",
-          "id": "ef83d034-d35d-4cd0-8c21-881b6916bbd8",
-          "asset": "0",
-          "info": {"editorName": "bg"}
-        },
-        {
-          "type": "image",
-          "id": "2f273cd1-f8b4-4544-9cb3-7b07688d854e",
-          "asset": "1",
-          "info": {
-            "editorName": "how",
-            "editorField": true,
-            "y": 200
-          }
-        },
-        {
-          "type": "image",
-          "id": "43f68889-e1df-48c0-99d5-6fa0125e8c98",
-          "asset": "2",
-          "info": {"editorName": "howToPlayTitle"}
+      "children": [{
+        "type": "image",
+        "id": "2f273cd1-f8b4-4544-9cb3-7b07688d854e",
+        "asset": "0",
+        "info": {
+          "editorName": "how",
+          "editorField": true,
+          "y": -3
         }
-      ]
+      }]
     }
   },
   "type": "STATE",
-  "asset-table": {
-    "0": {
-      "file": "WebContent/assets/pack.json",
-      "section": "graphics",
-      "asset": "bg"
-    },
-    "1": {
-      "file": "WebContent/assets/pack.json",
-      "section": "graphics",
-      "asset": "how1"
-    },
-    "2": {
-      "file": "WebContent/assets/pack.json",
-      "section": "graphics",
-      "asset": "howToPlayTitle"
-    }
-  },
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "graphics",
+    "asset": "how1"
+  }},
   "prefab-table": {}
 }

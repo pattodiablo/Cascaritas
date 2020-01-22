@@ -29,7 +29,7 @@ Intro.prototype.init = function () {
 	this.scale.pageAlignVertically = true;
 	
 };
-	
+
 Intro.prototype.preload = function () {
 	
 	this.load.pack('loader', 'assets/loaderSprites.json');
@@ -37,14 +37,11 @@ Intro.prototype.preload = function () {
 	this.myPreload();
 	
 	this.load.pack('graphics', 'assets/pack.json');
-	this.load.pack('Fonts', 'assets/pack.json');
 	
 };
 
 Intro.prototype.create = function () {
 	this.add.sprite(0.0, 0.0, 'title');
-	
-	this.add.bitmapText(455.0, 923.0, 'PixelFont', 'By Pattodiablo', 32);
 	
 	
 	

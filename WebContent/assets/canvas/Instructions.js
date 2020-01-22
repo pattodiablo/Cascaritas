@@ -39,11 +39,7 @@ Instructions.prototype.preload = function () {
 };
 
 Instructions.prototype.create = function () {
-	this.add.sprite(0.0, 0.0, 'bg');
-	
-	var _how = this.add.sprite(0.0, 200.0, 'how1');
-	
-	this.add.sprite(0.0, 0.0, 'howToPlayTitle');
+	var _how = this.add.sprite(0.0, -3.0, 'how1');
 	
 	
 	
@@ -78,7 +74,7 @@ Instructions.prototype.update = function () {
 Instructions.prototype.myCreate = function (instructions) {
 	this.game.sound.mute = true;
 	this.fHow.inputEnabled = true;
-	this.factor = -640; 
+	this.factor = -540; 
 	
 	this.startButton = this.game.add.button(this.factor, 855.0, 'playBtn', startGame, this, 2, 1, 0);
 	this.startButton.anchor.set(0.5);
@@ -88,13 +84,13 @@ Instructions.prototype.myCreate = function (instructions) {
 		console.log("clicking");
 		move1 = this.game.add.tween(this.fHow);
 		move1.onComplete.addOnce(factorChange, this);
-		move1.to({x:this.factor}, 1000, Phaser.Easing.Bounce.Out);
+		move1.to({x:this.factor}, 1080, Phaser.Easing.Bounce.Out);
 		move1.start();
 		
 		
 		 pigArrives = this.game.add.tween( this.startButton);
 		    
-		    pigArrives.to({x:this.factor + 960}, 1000, Phaser.Easing.Bounce.Out);
+		    pigArrives.to({x:this.factor + 760}, 1080, Phaser.Easing.Bounce.Out);
 
 		    pigArrives.start();
 		
